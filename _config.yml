@@ -4,8 +4,8 @@ title: OffSecToolKit
 exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md']
 
 permalink: pretty
-baseurl: "/OffSecToolKit"
-url: "https://OffSecToolKit.github.io"
+#baseurl: "/OffSecToolKit"
+#url: "https://OffSecToolKit.github.io"
 #theme: null
 collections:
   OffSecToolKit:

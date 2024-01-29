@@ -1,17 +1,17 @@
 <h1>
     {% if page.url != '/' %}
-    <a href="{{ site.url }}{{ site.baseurl }}">..</a> /
+    <a href="/">..</a> /
     {% endif %}
     {{ include.title }}
     <div class="github-buttons">
-        <a class="github-button" href="{{ site.url }}{{ site.baseurl }}" data-icon="octicon-star" data-show-count="true" aria-label="Star OffSecToolKit/OffSecToolKit.github.io on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/OffSecToolKit/OffSecToolKit.github.io" data-icon="octicon-star" data-show-count="true" aria-label="Star OffSecToolKit/OffSecToolKit.github.io on GitHub">Star</a>
         <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
         </label>
         <script type="text/javascript">        
             if(localStorage["style"]=="true"){
-                document.getElementById('pagestyle').setAttribute('href','{{ site.url }}{{ site.baseurl }}/assets/styleDark.css');
+                document.getElementById('pagestyle').setAttribute('href','./assets/styleDark.css');
                 document.querySelector('input[type="checkbox"]').checked = true
             }
         </script>

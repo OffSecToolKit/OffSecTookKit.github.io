@@ -3,7 +3,7 @@
 [Build Status]: https://travis-ci.org/ostk/thetonyharkness.gihub.io.svg?branch=main
 [travis]: https://travis-ci.org/ostk/thetonyharkness.github.io
 
-OSTK is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands.
+OffSecToolKit is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands.
 
 Find the project at https://github.com/OffSecToolKit/OffSecToolKit.github.io
 

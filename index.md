@@ -1,11 +1,11 @@
 ---
 layout: page
-title: OSTK
+title: OffSecToolKit
 ---
 
-![logo]({{ site.url }}{{ site.baseurl }}/assets/logo.png){:.logo}
+![logo](./assets/logo.png){:.logo}
 
-OSTK is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands.  
+OffSecToolKit is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands.  
 
 If you hate constantly looking up the right command to use while conducting CTFs or Offensive Security enagements, this project should help ease the pain a bit. Just select what phase you are currently in or what services are open and it will display a list of tools you can try against the machine, along with a template command for easy copy/pasting. See the full list of [items](/items/) and [filters](/filters/).
 
