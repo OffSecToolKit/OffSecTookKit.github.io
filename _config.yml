@@ -8,7 +8,7 @@ baseurl: "/OffSecToolKit"
 url: "https://OffSecToolKit.github.io"
 #theme: null
 collections:
-  ostk:
+  OffSecToolKit:
     output: true
 
 defaults:

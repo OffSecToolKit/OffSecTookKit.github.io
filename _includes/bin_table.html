@@ -8,7 +8,7 @@
 <div id="bin-search-wrapper">
 
     <ul id="bin-search-filters" class="filter-list">
-	<h3>What you have:</h3>
+	<OffSecToolKit: you have:</h3>
 	{% for item_pair in site.data.items %}
 	{% assign item_id = item_pair[0] %}
 	{% assign item = item_pair[1] %}
@@ -42,7 +42,7 @@
 
 </div>
 <div style="margin-top: -20px;">
-<input id="bin-search" type="text" placeholder="Search among {{ site.ostk | size }} commands: <command> +<filter> ..."/>
+<input id="bin-search" type="text" placeholder="Search among {{ site.OffSecToolKit | size }} commands: <command> +<filter> ..."/>
 </div>
 
 <div id="bin-table-wrapper">
@@ -53,7 +53,7 @@
             </tr>
         </thead>
         <tbody>
-	    {% assign sites = site.ostk | reverse %} 
+	    {% assign sites = site.OffSecToolKit | reverse %} 
             {% for file in sites %}
             <tr>
 		    <td><div class="bin-name"><div style="flex: 0 0 97%"><a href="{{ site.url }}{{ site.baseurl }}{{ file.url }}" id="{{ file.url }}" style="text-decoration: none; color: DarkGreen;">{{ file.command | escape }}</a></div><div style="flex: 1;"><a href="javascript:void(0)" onClick="copyFunction('{{ file.url }}')"><img src="{{ site.url }}{{ site.baseurl }}/assets/copy-button.svg" alt="Copy" title="Copy" id="{{ file.url }}_img"/></a></div></div><p style="margin-top: -12px;">{% include filter_list.html bin=file %}</p></td>
@@ -72,7 +72,7 @@
 	 var copyCommand = document.getElementById(file_url);
 
 	 navigator.clipboard.writeText(copyCommand.innerText).then(() => {
-		 {% for file in site.ostk %}
+		 {% for file in site.OffSecToolKit %}
 		 document.getElementById("{{ file.url }}_img").alt = "Copy";
 		 document.getElementById("{{ file.url }}_img").title = "Copy";
 		 {% endfor %}
