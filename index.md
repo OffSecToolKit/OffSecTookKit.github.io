@@ -3,7 +3,7 @@ layout: page
 title: OSTK
 ---
 
-![logo]({{ site.baseurl }}/assets/logo.png){:.logo}
+![logo]({{ site.url }}{{ site.baseurl }}/assets/logo.png){:.logo}
 
 OSTK is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands.  
 
@@ -13,11 +13,11 @@ This project was created by [Tony Harkness](https://www.linkedin.com/in/tonyhark
 
 I'm hoping to make OSTK a [collaborative project][collaborative], so please feel free to [contribute][contribute] your commands.
 
-[items]: {{ site.baseurl }}/items/
-[filters]: {{ site.baseurl }}/filters/
+[items]: {{ site.url }}{{ site.baseurl }}/items/
+[filters]: {{ site.url }}{{ site.baseurl }}/filters/
 [GTFOBins]: https://gtfobins.github.io/
 [LOLBAS]: https://lolbas-project.github.io/
 [collaborative]: https://github.com/thetonyharkness/OSTK
-[contribute]: {{ site.baseurl }}/contribute/
+[contribute]: {{ site.url }}{{ site.baseurl }}/contribute/
 
 {% include bin_table.html %}
