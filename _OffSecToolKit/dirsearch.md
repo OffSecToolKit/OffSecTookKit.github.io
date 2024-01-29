@@ -4,7 +4,7 @@ description: |
 
   Command Reference:
 
-    Target: http://10.10.10.1
+      Target: http://10.10.10.1
 
 command: |
   dirsearch -u http://10.10.10.1

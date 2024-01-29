@@ -4,15 +4,15 @@ description: |
 
   Command Reference:
 
-    Domain: test.local
+      Domain: test.local
 
-    Host that you got the certificate from: DC01
+      Host that you got the certificate from: DC01
 
-    PFX file: crt.pfx
+      PFX file: crt.pfx
 
-    PFX file password: password123
+      PFX file password: password123
 
-    TGT requested: out.ccache
+      TGT requested: out.ccache
 
 command: |
   python3 gettgtpkinit.py test.local/DC01\$ -cert-pfx crt.pfx -pfx-pass password123 out.ccache

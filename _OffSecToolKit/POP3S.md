@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    IP: 10.10.10.1
+      IP: 10.10.10.1
 
-    Protocol: pop3s
+      Protocol: pop3s
 
 command: |
   openssl s_client -connect 10.10.10.1:pop3s

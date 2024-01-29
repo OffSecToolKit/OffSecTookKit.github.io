@@ -4,7 +4,7 @@ description: |
 
   Command Reference:
 
-    Target: https://test.local
+      Target: https://test.local
 
 command: |
   eyewitness.py -f urls.txt --single https://test.local

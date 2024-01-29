@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    Username: john
+      Username: john
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
 command: |
   mssqlclient.py john@10.10.10.1 -windows-auth

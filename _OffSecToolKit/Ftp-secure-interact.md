@@ -6,7 +6,7 @@ description: |
 
   	Target: 10.0.0.1
 
-    Port: 21
+      Port: 21
 
 command: |
   openssl s_client -connect 10.0.0.1:21 -starttls ftp

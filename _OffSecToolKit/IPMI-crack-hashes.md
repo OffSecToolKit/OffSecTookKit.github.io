@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    IPMI hashes file: ipmi-hash.txt
+      IPMI hashes file: ipmi-hash.txt
     
-    Cracking wordlist: /usr/share/wordlists/rockyou.txt
+      Cracking wordlist: /usr/share/wordlists/rockyou.txt
 
 command: |
   hashcat -m 7300 ipmi-hash.txt /usr/share/wordlists/rockyou.txt

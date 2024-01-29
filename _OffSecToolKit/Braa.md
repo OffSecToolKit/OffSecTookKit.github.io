@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    Community string: public
+      Community string: public
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
 command: |
   braa public@10.10.10.1:.1.*

@@ -4,7 +4,7 @@ description: |
 
   Command Reference:
 
-    Target: 10.0.0.1
+      Target: 10.0.0.1
 
 command: |
   ftp 10.0.0.1

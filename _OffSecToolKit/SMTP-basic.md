@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    Port: 25
+      Port: 25
 
 command: |
   telnet 10.10.10.1 25

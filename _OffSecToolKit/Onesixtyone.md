@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    Community strings wordlist: community-strings.list
+      Community strings wordlist: community-strings.list
 
-    IP: 10.10.10.1
+      IP: 10.10.10.1
 
 command: |
   onesixtyone -c community-strings.list 10.10.10.1

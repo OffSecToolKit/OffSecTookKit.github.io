@@ -4,7 +4,7 @@ description: |
 
   Command Reference:
 
-    Target: https://test.local
+      Target: https://test.local
 
 command: |
   wafw00f -v https://test.local

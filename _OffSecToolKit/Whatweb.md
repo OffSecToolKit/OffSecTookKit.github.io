@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
     
-    Aggressive level: 3
+      Aggressive level: 3
 
-    Target: https://www.facebook.com
+      Target: https://www.facebook.com
 
 command: |
   whatweb -a 3 https://www.facebook.com -v

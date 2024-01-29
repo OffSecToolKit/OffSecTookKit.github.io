@@ -4,13 +4,13 @@ description: |
 
   Command Reference:
 
-    Domain: test.local
+      Domain: test.local
 
-    Host that you got the TGT from: DC01
+      Host that you got the TGT from: DC01
 
-    TGT from gettgtpkinit.py: out.ccache
+      TGT from gettgtpkinit.py: out.ccache
 
-    AS-REP key: 6e63333c372d7fbe64dab63f36673d0cd03bfb92b2a6c96e70070be7cb07f773
+      AS-REP key: 6e63333c372d7fbe64dab63f36673d0cd03bfb92b2a6c96e70070be7cb07f773
 
 command: |
   KRB5CCNAME=out.ccache python3 getnthash.py test.local/DC01\$ -key 6e63333c372d7fbe64dab63f36673d0cd03bfb92b2a6c96e70070be7cb07f773

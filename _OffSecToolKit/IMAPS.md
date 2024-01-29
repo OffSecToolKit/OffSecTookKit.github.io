@@ -4,9 +4,9 @@ description: |
 
   Command Reference:
 
-    IP: 10.10.10.1
+      IP: 10.10.10.1
 
-    Protocol: imaps
+      Protocol: imaps
 
 command: |
   openssl s_client -connect 10.10.10.1:imaps

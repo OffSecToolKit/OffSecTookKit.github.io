@@ -4,13 +4,13 @@ description: |
 
   Command Reference:
 
-    Nameserver IP: 10.10.10.1
+      Nameserver IP: 10.10.10.1
 
-    Domain: test.local
+      Domain: test.local
 
-    Output file: found_subdomains.txt
+      Output file: found_subdomains.txt
 
-    Subdomains wordlist: ~/subdomains.list
+      Subdomains wordlist: ~/subdomains.list
 
 command: |
   dnsenum --dnsserver 10.10.10.1 --enum -p 0 -s 0 -o found_subdomains.txt -f ~/subdomains.list test.local

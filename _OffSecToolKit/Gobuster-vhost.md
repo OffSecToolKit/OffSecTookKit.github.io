@@ -4,11 +4,11 @@ description: |
 
   Command Reference:
 
-    Mode: VHOST
+      Mode: VHOST
 
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    VHOST wordlist: /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt
+      VHOST wordlist: /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt
 
 command: |
   gobuster vhost -u 10.10.10.1 -w /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt

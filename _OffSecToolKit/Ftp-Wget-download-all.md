@@ -6,13 +6,13 @@ description: |
 
   	Enable recursion: -m
 
-    Diable passive mode: --no-passive
+      Disable passive mode: --no-passive
 
-    Service: ftp
+      Service: ftp
 
-    User & Password: anonymous:anonymous
+      User:Password: anonymous:anonymous
 
-    Target: 10.0.0.1
+      Target: 10.0.0.1
 
 command: |
   wget -m --no-passive ftp://anonymous:anonymous@10.0.0.1

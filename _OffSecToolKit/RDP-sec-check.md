@@ -4,7 +4,7 @@ description: |
 
   Command Reference:
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
 command: |
   rdp-sec-check.pl 10.10.10.1

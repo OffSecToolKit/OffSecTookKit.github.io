@@ -6,7 +6,7 @@ description: |
 
   	Domain: test.local
 
-    Nameserver IP: 10.10.10.1
+      Nameserver IP: 10.10.10.1
 
 command: |
   dig ns test.local @10.10.10.1

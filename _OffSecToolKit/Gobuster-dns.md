@@ -4,17 +4,17 @@ description: |
 
   Command Reference:
 
-    Mode: DNS
+      Mode: DNS
 
-    Nameserver IP: 10.10.10.1
+      Nameserver IP: 10.10.10.1
 
-    Domain: test.local
+      Domain: test.local
 
-    Subdomain wordlist: /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt
+      Subdomain wordlist: /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt
 
-    Pattern file: patterns.txt
+      Pattern file: patterns.txt
 
-    Output file: output.txt
+      Output file: output.txt
 
 command: |
   gobuster dns -q -r 10.10.10.1 -d test.local -w /usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt -p ./patterns.txt -o output.txt

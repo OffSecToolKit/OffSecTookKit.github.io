@@ -4,11 +4,11 @@ description: |
 
   Command Reference:
 
-    Username: john
+      Username: john
 
-    Password: password123
+      Password: password123
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
 command: |
   mysql -u john -ppassword123 -h 10.10.10.1

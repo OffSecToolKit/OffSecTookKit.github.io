@@ -4,13 +4,13 @@ description: |
 
   Command Reference:
     
-    User: john
+      User: john
 
-    password: password123
+      password: password123
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    System command: whoami
+      System command: whoami
 
 command: |
   wmiexec.py john:"password123"@10.10.10.1 "whoami"

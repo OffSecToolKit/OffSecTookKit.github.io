@@ -4,11 +4,11 @@ description: |
 
   Command Reference:
     
-    User: john
+      User: john
 
-    Password: password123
+      Password: password123
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
 command: |
   xfreerdp /u:john /p:"password123" /v:10.10.10.1

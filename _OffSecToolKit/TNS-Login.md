@@ -4,13 +4,13 @@ description: |
 
   Command Reference:
     
-    User: john
+      User: john
 
-    Password: password123
+      Password: password123
     
-    Target: 10.10.10.1
+      Target: 10.10.10.1
 
-    Datbase: oracle
+      Datbase: oracle
 
 command: |
   sqlplus john/password123@10.10.10.1/oracle
