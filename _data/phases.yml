@@ -1,0 +1,16 @@
+---
+Enumeration:
+  label: Enumeration
+  description: Commands focused on enumeration.
+
+Exploitation:
+  label: Exploitation
+  description: Commands focused on exploitation.
+
+PrivEsc:
+  label: Privilege Escalation
+  description: Commands focused on privilege escalation.
+
+InfoCollection:
+  label: High-Value Information Collection
+  description: Commands focused on high-value information collection.

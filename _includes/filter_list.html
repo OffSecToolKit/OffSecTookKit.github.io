@@ -1,0 +1,33 @@
+<ul class="filter-list">
+    {% for phase_pair in site.data.phases %}
+    {% assign phase_id = phase_pair[0] %}
+    {% assign phase = phase_pair[1] %}
+    {% if include.bin.phases contains phase_id %}
+    <li><a href="{{ site.baseurl }}{{ include.bin.url }}#{{ phase_id }}">{{ phase.label }}</a></li>
+    {% endif %}
+    {% endfor %}
+
+    {% for item_pair in site.data.items %}
+    {% assign item_id = item_pair[0] %}
+    {% assign item = item_pair[1] %}
+    {% if include.bin.items contains item_id %}
+    <li><a href="{{ site.baseurl }}{{ include.bin.url }}#{{ item_id }}">{{ item.label }}</a></li>
+    {% endif %}
+    {% endfor %}
+
+    {% for service_pair in site.data.services %}
+    {% assign service_id = service_pair[0] %}
+    {% assign service = service_pair[1] %}
+    {% if include.bin.services contains service_id %}
+    <li><a href="{{ site.baseurl }}{{ include.bin.url }}#{{ service_id }}">{{ service.label }}</a></li>
+    {% endif %}
+    {% endfor %}
+
+    {% for OS_pair in site.data.OS %}
+    {% assign OS_id = OS_pair[0] %}
+    {% assign OS = OS_pair[1] %}
+    {% if include.bin.OS contains OS_id %}
+    <li><a href="{{ site.baseurl }}{{ include.bin.url }}#{{ OS_id }}">{{ OS.label }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>

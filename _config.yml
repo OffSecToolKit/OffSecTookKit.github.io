@@ -1,0 +1,18 @@
+---
+title: OffSecToolKit
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md']
+
+permalink: pretty
+baseurl: "/OffSecToolKit"
+#url: "https://OffSecToolKit.github.io"
+#theme: null
+collections:
+  ostk:
+    output: true
+
+defaults:
+  - scope:
+      path: '_ostk'
+    values:
+      layout: bin
