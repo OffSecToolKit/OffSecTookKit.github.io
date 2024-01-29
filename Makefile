@@ -10,5 +10,5 @@ bundle:
 	bundle install
 
 lint:
-	yamllint _ostk/*.md
+	yamllint _OffSecToolKit/*.md
 	scripts/validate-schema.py

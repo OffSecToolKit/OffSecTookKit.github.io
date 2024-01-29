@@ -5,7 +5,7 @@ title: Contribute
 
 ## Structure
 
-Each ostk Command is defined in a file in the [`_ostk/`] folder named as `<tool name>.md`, such file consists only of a [YAML] front matter which describes the command and its attributes.
+Each ostk Command is defined in a file in the [`_OffSecToolKit/`] folder named as `<tool name>.md`, such file consists only of a [YAML] front matter which describes the command and its attributes.
 
 The full syntax is the following:
 
@@ -46,7 +46,7 @@ references:
 
 Where `ITEM` is one of the values described in the [`_data/items.yml`] file, `SERVICE` is one of the values described in the [`_data/services.yml`] file, `OS` is one of the values described in the [`_data/OS.yml`] file, `PHASE` is one of the values described in the [`_data/phases.yml`] file, and `LINK` is a link to download the related tool for that command as well as links to any other relevant information about what the command is doing. 
 
-Feel free to use any file in the [`_ostk/`] folder as an example.
+Feel free to use any file in the [`_OffSecToolKit/`] folder as an example.
 
 ## Pull request process
 
@@ -62,7 +62,7 @@ Before sending a pull request of a new command, ensure the following:
 Pull requests adding new items in [`_data/items.yml`], services in [`_data/services.yml`], OS in [`_data/OS.yml`], or phases in [`_data/phases.yml`] are allowed and subjected to project maintainers vetting.
 
 [YAML]: http://yaml.org/
-[`_ostk/`]: https://github.com/OffSecToolKit/OffSecToolKit.github.io/tree/main/_ostk
+[`_OffSecToolKit/`]: https://github.com/OffSecToolKit/OffSecToolKit.github.io/tree/main/_OffSecToolKit
 [`_data/services.yml`]: https://github.com/OffSecToolKit/OffSecToolKit.github.io/blob/main/_data/services.yml
 [`_data/items.yml`]: https://github.com/OffSecToolKit/OffSecToolKit.github.io/blob/main/_data/items.yml
 [`_data/OS.yml`]: https://github.com/OffSecToolKit/OffSecToolKit.github.io/blob/main/_data/OS.yml

@@ -5,14 +5,14 @@ exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md']
 
 permalink: pretty
 #baseurl: "/OffSecToolKit"
-#url: "https://OffSecToolKit.github.io"
-#theme: null
+url: "https://OffSecToolKit.github.io"
+theme: null
 collections:
   OffSecToolKit:
     output: true
 
 defaults:
   - scope:
-      path: '_ostk'
+      path: '_OffSecToolKit'
     values:
       layout: bin
